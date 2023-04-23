@@ -34,5 +34,5 @@ localStorage.removeItem('password');
 alert(Logged in as ${usernameInput.value})
 
 // Show the "Login as existing user" button
-existingButton.style.display = 'block';
+existingButton.style.visibility = 'visible';
 });
