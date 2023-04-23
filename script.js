@@ -1,16 +1,16 @@
-const form = document.querySelector('form');
-const usernameInput = document.getElementById('username');
-const passwordInput = document.getElementById('password');
-const rememberCheckbox = document.getElementById('checkbox');
-const existingButton = document.getElementById('existing');
+// const form = document.querySelector('form');
+// const usernameInput = document.getElementById('username');
+// const passwordInput = document.getElementById('password');
+// const rememberCheckbox = document.getElementById('checkbox');
+// const existingButton = document.getElementById('existing');
 
-// On page load, check if there are stored login details
-if (localStorage.getItem('username') && localStorage.getItem('password')) {
-// Populate the input fields with the stored login details
+// // On page load, check if there are stored login details
+// if (localStorage.getItem('username') && localStorage.getItem('password')) {
+// // Populate the input fields with the stored login details
 
-// Show the "Login as existing user" button
-existingButton.style.visiblity = "visible"
-}
+// // Show the "Login as existing user" button
+// existingButton.style.visiblity = "visible"
+// }
 
 // Add an event listener to the form on submit
 form.addEventListener('submit', function(e) {
